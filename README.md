@@ -1,7 +1,9 @@
 # Passe Partout
 
 Passe partout est un gestionnaire de clés AWS IAM.
+
 Il permet de régénérer de manière régulière des paires de clés afin de mettre en place une rotation automatique.
+
 Il dispose à ce jour de deux implémentations, pour ensuite transmettre ces clés à une/des app(s) Heroku ou un/des
 projet(s) Gitlab.
 
