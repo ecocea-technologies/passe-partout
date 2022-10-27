@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:text="#{greeting}"></div>
+<br>
+<div>
+    <span th:text="#{delete-current-key.text1}"></span>
+    <strong th:text="${userName}"></strong>,
+    <span th:text="#{delete-current-key.text2}"></span>
+    <div th:text="#{delete-current-key.text3}"></div>
+</div>
+<br>
+<div th:text="#{bye}"></div>
+<div th:text="#{bye2}"></div>
+</body>
+</html>
